@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: peachpuff; */
+    /* z-index: 9; */
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: peachpuff;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: black;
+
+}
+.logo
+{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img
+{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.nav_list
+{
+    width: 50%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+ }
+
+.nav_list li
+ {
+   list-style: none;
+   padding: 25px 30px;
+ }
+ 
+
+.nav_list li a
+ {
+   text-decoration: none;
+   color: blanchedalmond;
+ }
+.nav_list li a:hover
+ {
+   text-decoration: none;
+   color: grey;
+ }
+ .rightnav
+ {
+     width: 50%;
+     /* background-color: tomato; */
+     padding: 0px 10px;
+     text-align: right;
+
+ }
+#search
+{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+
+}
+.background
+{
+    background: rgb(0, 0, 0,0.7) url('https://source.unsplash.com/user/erondu/1600x900');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main
+{
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+
+}
+.firstsection
+{
+    height: 100vh;
+}
+.firsthalf
+{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.secondhalf
+{
+  width: 30%;
+}
+.secondhalf img
+{
+  /* width: 30%; */
+  width: 70%;
+  padding: 4px;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+.text-big
+{
+    font-size: 40px;
+}
+.text-small
+{
+    font-size: 18px;
+}
+.btn
+{
+    padding: 8px 17px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    background: none;
+    color: azure;
+    cursor: pointer;
+
+}
+.btn:hover
+{
+    background-color: red;
+}
+.btn-nav
+{
+    padding: 5px 10px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    background: none;
+    color: azure;
+    cursor: pointer;
+
+}
+.btn-nav:hover
+{
+    background-color: grey;
+}
+.section
+{
+    display: flex;
+    /* height: 500px; */
+    padding:10px ;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;;
+}
+ .left
+{
+    flex-direction: row-reverse;
+}
+.paras
+{
+     padding: 0px 60px; 
+}
+.thumbnail img
+{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.contact
+{
+    height: 120vh;
+    background-color: grey;
+}
+.text_down
+{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form
+{
+    max-width: 700px;
+    width: 62%;
+    margin: auto;
+}
+.form input
+{
+    width: 100%;
+    padding: 7px;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 20px 0px;
+}
+.form textarea
+{
+    width: 100%;
+    padding: 7px;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 20px 0px;
+}
+.btn-dark
+{
+    color: black;
+    border: 2px solid black;
+}
+footer
+{
+    padding: 10px 0px;
+    height: 30px;
+    background-color: black;
+}
+.text-footer
+{
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.burger
+{
+    display: none;
+   position: absolute;
+   cursor: pointer;
+   right: 5%;
+   top: 15px;
+
+}
+.line
+{
+    width: 33px;
+    background-color: white;
+    height: 5px;
+    margin: 3px 3px;
+
+}
